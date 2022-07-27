@@ -4,13 +4,127 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Pro Edu</title>
+    <!-- bootstrap css cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light mb-5">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"> <small> Home</small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><small>Courses</small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><small>Deals</small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><small>Success</small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><small>About</small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><small>Register</small></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- slider -->
+        <section class="container">
+            <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
+                <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div> -->
+                <div class="carousel-inner rounded-3">
+                    <div class="carousel-item active slider-bg ">
+                        <img src="images/cover/cover-1.png" class="d-block w-100 " alt="..." style="min-height:240px ;">
+                        <div>
+                            <div class="carousel-caption d-flex flex-column justify-content-center top-0 "
+                                style="z-index: 1;">
+                                <h4 class="text-white text-center fs-2 fw-bold lh-sm">Get Started Digital<br>Learning
+                                </h4>
+                                <small>
+                                    <p class="text-center text-white lh-sm mb-0">It is a long established fact that a
+                                        reader
+                                        will
+                                        be reader
+                                        will
+                                        be reader
+                                        will
+                                        be reader
+                                        will
+                                        be reader
+                                        will
+                                        be
+                                    <p>
+                                </small>
+                                <div>
+                                    <button class="btn btn-primary">Get
+                                        Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="container mt-5">
+            <h1 class="text-center mb-3">Discover Our Popular Courses</h1>
+            <p class="text-center text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, modi
+                cupiditate.
+                Dicta
+                doloribus est alias dolor corporis possimus consequuntur quidem quia excepturi beatae. Alias
+                inventore iure iusto! Rerum, molestiae quae.</p>
+
+            <div class="row g-2">
+                <div class="col-lg-6"></div>
+                <div class="col-lg-6"></div>
+            </div>
+        </section>
+
+
+    </main>
+    <!-- bootstrap js cdn-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
