@@ -13,5 +13,13 @@
 }
 
 .button-bg {
+    background: #289BDE;
+}
+
+.button-bg:focus {
+    background-color: #289BDE;
+}
+
+.button-bg:hover {
     background-color: #289BDE;
 }
